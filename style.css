@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.container{
+     width: 50%;
+     height: 58%;
+     background-color: rgb(133, 17, 242);
+     text-align: center;
+     overflow: hidden;
+     border-top-right-radius: 2rem;
+     border-top-left-radius: 2rem;
+     box-shadow: 5px 4px 4px black;
+}
+.box1{
+    background-color: brown;
+    padding: 2rem 2rem;
+    font-size: bold;
+    font-size: 2rem;
+    color: white;
+}
+.box1 > h1{
+    font-size: 3rem;
+}
+.box2{
+    margin:1rem 0rem;
+    color: white;
+    text-align: left;
+    margin-left: 3rem;
+    font-size: bold;
+    font-size: 1.5rem;
+}
+.ulist{
+    margin-left: 1rem;
+    margin: 0.7rem 0rem;
+}
